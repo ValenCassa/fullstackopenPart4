@@ -1,0 +1,10 @@
+post http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlZhbGVuQ2Fzc2EiLCJpZCI6IjYxYzBmY2RiNTY2YmVjZmI0OTEwNDZkMSIsImlhdCI6MTY0MDIwMTk3NSwiZXhwIjoxNjQwMjA1NTc1fQ.1ajIXZgK20CcbXpB3Llv7tMvVSV0Bk0XUBVaqD7mlck
+
+{
+    "title": "test",
+    "author": "me",
+    "blogs": []
+}
+
